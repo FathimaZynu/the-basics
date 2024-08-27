@@ -1,0 +1,150 @@
+body{
+    font-family: Arial,sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+header nav{
+    background-color: #3d3c3c;
+    color: white;   
+    height: 60px;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+}
+ul{
+    float: right;
+    margin-right: 5%;
+}
+.social-icons{
+    float: left;
+    margin-left: 3%;
+}
+ul li{
+    margin: 10px;
+    padding: 0;
+    position: relative;
+    display: inline-block;
+}
+ul li a{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 10px;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+.icons{
+    padding: 20px 20px;
+}
+.icons a{
+    padding: 10px;
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+}
+.button{
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+.first{
+    text-align: center;
+    padding: 5rem;
+    display: flex;
+}
+.para{
+    text-align: left;;
+}
+.para div a{
+    text-decoration: none;
+    padding: 10px;
+}
+.first h1{
+    font-size: 7rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+.first p{
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+.first img{
+    float: right;
+    align-self: center;
+    max-width: 50%;
+    margin:0 auto;
+}
+.island{
+    margin:50px;
+
+}
+.solutions{
+    text-align: center;
+    padding: 50px;
+    margin-left: 50px;
+   
+}
+.solutions h2{
+    font-size: 2rem;
+}
+.sol-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+   
+}
+.sol-items{
+    display: flex;
+    background-color: white;
+    padding: 30px;
+    text-align: left;
+    
+}
+.sol-items img{
+    width: 40%;
+    height: auto;
+    
+}
+.sol-content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.sol-items h3{
+    font-size: 1rem;
+    margin-top: 5px;
+}
+.sol-items p{
+    font-size: 1em;
+    color: #555;
+    margin: 15px 0;
+   
+}
+.learn-more{
+    display: flex;
+    padding: 10px 15px;
+    background-color: #e74c3c;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 150px;
+}
+.about{
+    padding: 70px;
+}
+.about h2{
+    margin-bottom: 25px;
+    font-size: 2rem;
+}
+.about div p{
+    margin-top: 40px;
+}

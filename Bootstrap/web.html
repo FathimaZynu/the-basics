@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Footer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        footer {
+            background-color: #004080; 
+            color: white;
+            padding: 40px 0;
+        }
+
+        .footer-container {
+            max-width: 1200px;
+            margin: 0 auto; 
+            padding: 0 20px; 
+        }
+
+        .footer-top {
+            display: flex;
+            justify-content: space-between; 
+            flex-wrap: wrap; 
+            margin-bottom: 20px; 
+        }
+
+        .footer-addresses {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap; 
+            margin-bottom: 20px; 
+        }
+
+        .footer-section {
+            flex: 1; 
+            min-width: 150px; 
+            margin: 10px;
+        }
+
+        .footer-section h2 {
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+
+        .footer-section ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .footer-section ul li {
+            margin-bottom: 10px;
+        }
+
+        .footer-section a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .footer-section a:hover {
+            text-decoration: underline;
+        }
+
+        .logo-section {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo-section img {
+            width: 50px;
+            height: auto;
+            margin-right: 10px; 
+        }
+
+        .footer-address {
+            flex: 1; 
+            min-width: 150px; 
+            margin: 10px;
+        }
+
+        .footer-bottom {
+            text-align: center;
+            padding: 10px;
+            background-color: #fc5000; 
+        }
+
+        .address {
+            margin-bottom: 20px;
+        }
+
+        
+        @media (max-width: 768px) {
+            .footer-top, .footer-addresses {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .footer-section, .footer-address {
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-top">
+                <div class="footer-section logo-section">
+                    <img src="randy-fath-G1yhU1Ej-9A-unsplash.jpg" alt="Logo">
+                    <h2>FOCUZ</h2>
+                </div>
+                <div class="footer-section">
+                    <h2>Platform</h2>
+                    <ul>
+                        <li>Platform Overview</li>
+                        <li>Low code No code</li>
+                        <li>Integration</li>
+                        <li>Business process management</li>
+                        <li>Security & Privacy</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h2>Solutions</h2>
+                    <ul>
+                        <li>Customer Experience</li>
+                        <li>Process Automation</li>
+                        <li>Application Modernization</li>
+                        <li>Digital Transformation</li>
+                        <li>Excel to App</li>
+                        <li>Terms and Conditions</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h2>Blogs</h2>
+                    <ul>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-addresses">
+                <div class="footer-address address">
+                    <h2>Singapore</h2>
+                    <p>16 Raffles Quay</p>
+                    <p>#17-03 Hong Leong Building</p>
+                    <p>Singapore - 048581</p>
+                </div>
+                <div class="footer-address address">
+                    <h2>India</h2>
+                    <p>Om Chambers 648/A-1,</p>
+                    <p>Ground Floor, Binnamangala 1st Stage,</p>
+                    <p>Indiranagar, Bangalore - 560038</p>
+                </div>
+                <div class="footer-address address">
+                    <h2>Japan</h2>
+                    <p>Cross Office 5F 1-18-6</p>
+                    <p>Nishi-Shimbashi Minato-ku, Tokyo,</p>
+                    <p>Japan - 1050008</p>
+                </div>
+                <div class="footer-address address">
+                    <h2>Australia</h2>
+                    <p>42 Manilla St,</p>
+                    <p>East Brisbane QLD 4169,</p>
+                    <p>Australia</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023, All Rights Reserved Intelliflow Pte Ltd</p>
+        </div>
+    </footer>
+</body>
+</html>
