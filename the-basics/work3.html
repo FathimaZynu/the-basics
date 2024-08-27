@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+       /* tr{
+        border: solid black;
+       } */
+        table{
+            border-collapse: collapse;
+        }
+       label{
+            width: 250px;
+            display:inline-block;
+            padding: 15px;
+           
+        }
+        
+        thead,th{
+            background-color: brown;
+            color: yellow;
+            padding: 10px;
+            text-align: left;
+
+        }
+        tbody{
+            background-color: black;
+            color: orange;
+            
+        }
+        tfoot{
+            background-color: orange;
+            color: white;
+            height: 10px;
+        }
+        .subb{
+            background-color: green;
+            padding: 10px;
+        }
+        .can{
+            background-color: red;
+            padding: 10px;
+        }
+        .last{
+            color: white;
+            text-align: right;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <form action="work2.html" method="get">
+    <table>
+        <thead>
+            <tr><th colspan="4">Sign Up</th></tr>
+        </thead>
+    <tbody>
+    <tr>
+        <td> <label for="name">First Name</label></td>
+       <td><input type="text" name="nm" id="" required placeholder="Enter First Name"></td><br> 
+    </tr> 
+    <tr>    
+        <td><label for="lastnm">Last Name</label></td>
+        <td><input type="text" name="ln" id="" required placeholder="Enter Last Name"></td><br> 
+    </tr>
+    <tr>   
+         <td><label for="dob">Date of Birth</label></td>
+         <td><input type="date" name="date" id=""></td><br>
+    </tr>
+    <tr>
+         <td><label for="gender">Gender</label></td>
+         <td><input type="radio" id="" name="gen">Male
+         <input type="radio" name="male" id="">Female</td><br>
+    </tr>
+    <tr>     
+         <td><label for="country">Country</label></td>
+         <td><select name="cntry" id="">
+                <option value="">Country</option>
+                <option value="">India</option>
+                <option value="">France</option>
+                <option value="">Malai</option>
+         </select>
+         </td><br>
+    </tr>   
+    <tr>
+        <td><label for="email">Email</label></td>
+        <td><input type="email" name="email" id="" required placeholder="Enter Email"></td><br> 
+    </tr>
+    <tr>     
+         <td><label for="phn">Phone</label></td>
+         <td><input type="number" name="phn" id="" required placeholder="Enter Phone"></td><br>
+    </tr>   
+    <tr>  
+         <td><label for="pass">Password</label></td>
+         <td><input type="password" name="pw" id=""></td><br>
+    </tr>    
+    <tr>
+         <td><label for="passwd">Confirm Password</label></td>
+        <td><input type="password" name="pw" id=""></td><br>
+    </tr>
+    <tr>
+        <td><input type="checkbox" name="" id=""></td>
+        <td><label for="agreeing" class="last" >I Agree to the Terms of Use</label></td>
+    </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="4" align="right"><input type="submit" value="Submit" class="subb" >
+                <input type="submit" value="Cancel" class="can">
+            </td>
+        </tr>
+    </tfoot>
+</table>
+</form>
+</body>
+</html>

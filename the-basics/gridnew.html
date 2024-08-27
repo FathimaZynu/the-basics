@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .container{
+        height: 100vh;
+        display: grid; 
+        background-color: green;
+        grid-template-columns: auto; 
+        grid-template-rows: 1fr 3fr 1fr 2fr 1fr;
+        grid-template-areas: "one one two two two two two two two"
+        "one one three three three three three four four"
+        "one one five five five five five five five"
+        "one one six six six six six seven seven "
+        "eight eight eight eight eight eight eight eight eight"
+        
+    }
+    .item{
+        border: 1px solid red;
+    }
+    .item1{
+        grid-area: one;
+    }
+    .item2{
+        grid-area: two;
+    }
+    .item3{
+        grid-area: three;
+    }
+    .item4{
+        grid-area: four;
+    }
+    .item5{
+        grid-area: five;
+    }
+    .item6{
+        grid-area: six;
+    }
+    .item7{
+        grid-area: seven;
+    }
+    .item8{
+        grid-area: eight;
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="item item1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure consectetur ea ex adipisci veritatis tempore officia laboriosam doloribus in aspernatur et eligendi, non inventore modi blanditiis eius dolores obcaecati mollitia explicabo perferendis debitis, dolorum, cupiditate</div>
+        <div class="item item2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur, fugiat. dttfdrfd hduyf thtyftdjyhfjyyfjhgvjhdtrdcjghdsrgd ggd6urtaesdgc reyuftrs gddu7u7tutf </div>
+        <div class="item item3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id, excepturi aliquam? Accusantium repellendus culpa deserunt!</div>
+        <div class="item item4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, in?</div>
+        <div class="item item5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, temporibus.</div> 
+        <div class="item item6">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id, excepturi aliquam? Accusantium repellendus culpa deserunt!ghygggfjhftgjgdnbxgffgjvhdjheshgc sgfyff rshtcffxgvhfxgd xtrrdjgc</div>
+        <div class="item item7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, in?</div>
+        <div class="item item8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, temporibus.</div>     
+    </div>
+</body>
+</html>

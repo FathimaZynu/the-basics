@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         label{
+            width: 200px;
+            display:inline-block;
+            padding: 20px;
+        }
+        table{
+            border: 1px solid black;
+        }
+        thead,th{
+            background-color: yellow;
+            color: red;
+            padding: 10px;
+        }
+        tbody{
+            background-color: skyblue;
+        }
+        tfoot{
+            background-color: skyblue;
+            text-align: center;
+        }
+        .res{
+            padding: 15px;
+        }
+       td{
+        border: 1px solid white;
+        border-spacing: 100px;
+       }
+    </style>
+</head>
+<body>
+    <form action="work3.html" method="get">
+        <table>
+            <thead>
+                <tr><th colspan="4">Registration Form</th></tr>
+            </thead>
+        <tbody>
+        <tr>
+            <td> <label for="name">Enter Name</label></td>
+            <td><input type="text" name="nm" id=""></td><br> 
+        </tr> 
+        <tr>
+            <td><label for="pass">Enter Password</label></td>
+            <td><input type="password" name="pass" id=""></td>
+        </tr>
+        <tr>
+            <td><label for="address">Enter Address</label></td>
+            <td><textarea name="addrs" id=""></textarea></td><br> 
+        </tr>
+        <tr>
+            <td><label for="game">Select Game</label></td>
+            <td><input type="checkbox" name="hock" id="">Hockey <br>
+                <input type="checkbox" name="foot" id="">Football <br>
+                <input type="checkbox" name="bdmntn" id="">Badminton <br>
+                <input type="checkbox" name="crck" id="">Cricket <br>
+                <input type="checkbox" name="volley" id="">Volleyball
+            </td><br> 
+        </tr>
+        <tr>
+            <td> <label for="gender">Gender</label></td>
+            <td><input type="radio" name="gen" id="">Male
+                <input type="radio" name="gen" id="">Female
+            </td><br> 
+        </tr> 
+        <tr>
+            <td><label for="age">Select ur age</label></td>
+            <td><select name="mal" id="">
+                    <option value="">Select</option>               
+                    <option value="">18</option>
+                    <option value="">19</option>
+                    <option value="">20</option>
+                    <option value="">21</option>
+                    <option value="">22</option>
+                </select></td>   
+        </tr><br>
+        <tr>
+        <td><label for="phto">Select Photo</label></td>
+        <td><input type="file" name="" id=""></td><br>
+        </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4"><input type="submit" value="Click Me" class="res">
+                    <input type="submit" value="Reset" class="res">
+                    <input type="submit" value="Submit Form" class="res">
+                </td>
+            </tr>
+        </tfoot>
+        </table>
+    </form>    
+</body>
+</html>

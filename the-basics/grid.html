@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            height: 100vh;
+            display: grid;
+            border: 1px solid red;
+            grid-template-columns: 1fr 2fr 3fr;
+            grid-template-rows: 1fr 2fr 3fr;
+            grid-template-areas: "one one one"
+            "two three four"
+            "five five five"
+        }
+        .item1{
+            background-color: green;
+            grid-area: one;
+        }
+        .item2{
+            background-color: rgb(156, 13, 97);
+            grid-area: two;
+        }
+        .item3{
+            background-color: yellow;
+            grid-area: three;
+        }
+        .item4{
+            background-color: blue;
+            grid-area: four;
+        }
+        .item5{
+            background-color: red;
+            grid-area: five;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure consectetur ea ex adipisci veritatis tempore officia laboriosam doloribus in aspernatur et eligendi, non inventore modi blanditiis eius dolores obcaecati mollitia explicabo perferendis debitis, dolorum, cupiditate fuga fugiat! Perspiciatis veniam nemo, corrupti debitis commodi numquam vero quos optio beatae deserunt sapiente?</div>
+        <div class="item2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur, fugiat.</div>
+        <div class="item3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id, excepturi aliquam? Accusantium repellendus culpa deserunt!</div>
+        <div class="item4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, in?</div>
+        <div class="item5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, temporibus.</div>   
+    </div>
+</body>
+</html>
